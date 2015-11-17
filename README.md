@@ -30,6 +30,8 @@
 
 提一下，这个库将作为 [LCCoolHUD](https://github.com/LeoiOS/LCCoolHUD) 之一。另一个是 [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)。
 
+
+
 ## 代码 Code
 
 * 
@@ -57,7 +59,9 @@
     ````
 
 
+
 ## 更新日志 2015.11.17 Update Logs (tag: 1.0.1)
+
 * 方法优化，添加到 View 上的 HUD 不需要再拿到实例，才能隐藏：
     - 
         ````objc
@@ -75,19 +79,28 @@
         + (void)hideInView:(UIView *)view;
         ````
 
+
+
 ## 更新日志 2015.11.17 Update Logs (tag: 1.0.0)
+
 * 初始化提交。
 
 
+
 ## 示例 Examples
+
 ![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.png)
 
 
+
 ## 联系 Support
+
 * 发现问题请 Issues 我，谢谢:-)
-* E-mail: leoios@sina.com
-* MyBlog: http://www.leodong.com
+* Email: leoios@sina.com
+* Blog: http://www.leodong.com
+
 
 
 ## 授权 License
+
 本项目采用 [MIT license](http://opensource.org/licenses/MIT) 开源，你可以利用采用该协议的代码做任何事情，只需要继续继承 MIT 协议即可。
