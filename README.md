@@ -24,11 +24,11 @@
 
 封装是 OOP 思想的精华之一。万物皆对象，我有好多对象呀……
 
-同事，我尊重但不推荐一些目的不纯的封装行为。没错，哪怕是如 [AFNetworking](https://github.com/AFNetworking/AFNetworking)等，也都是对 iOS 系统方法的封装，我甚至可以说，iOS 系统是对 UNIX 的封装…… 但是我不希望有一天会有人告诉我，他把 `+ (instancetype)stringWithFormat:(NSString *)format;` 封装成了 `+ (instancetype)strWithFmt:(NSString *)format;` …… lol
+同时，我尊重但不推荐一些目的不纯的封装行为。没错，哪怕是如 [AFNetworking](https://github.com/AFNetworking/AFNetworking)等，也都是对 iOS 系统方法的封装，我甚至可以说，iOS 系统是对 UNIX 的封装…… 但是我不希望有一天会有人告诉我，他把 `+ (instancetype)stringWithFormat:(NSString *)format;` 封装成了 `+ (instancetype)strWithFmt:(NSString *)format;` …… lol
 
 ---
 
-提一下，这个库将作为 [LCCoolHUD](https://github.com/LeoiOS/LCCoolHUD) 之一，另一个是 [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)。
+提一下，这个库将作为 [LCCoolHUD](https://github.com/LeoiOS/LCCoolHUD) 之一。另一个是 [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)。
 
 ## 代码 Code
 
