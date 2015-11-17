@@ -47,6 +47,10 @@
 * 初始化提交。
 
 
+## 示例 Examples
+![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.png)
+
+
 ## 联系 Support
 * 发现问题请 Issues 我，谢谢:-)
 * E-mail: leoios@sina.com
