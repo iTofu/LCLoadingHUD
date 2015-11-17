@@ -33,7 +33,7 @@
 #pragma mark - HUD 添加到 View
 
 /**
- *  显示 HUD 到 View 上 (隐藏操作需要拿到该对象)
+ *  显示 HUD 到 View 上
  *
  *  @param text 文字
  *  @param view view
