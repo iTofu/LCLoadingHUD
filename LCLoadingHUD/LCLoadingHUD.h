@@ -8,7 +8,9 @@
 //  GitHub: http://github.com/LeoiOS
 //  如有问题或建议请给我发 Email, 或在该项目的 GitHub 主页 Issues 我, 谢谢:)
 //
-//  LCCoolHUD 封装系列 1
+//  LCCoolHUD 系列 库一
+//
+//  致谢 CLProgressHUD (https://github.com/cleexiang/CLProgressHUD) !
 
 #import "CLProgressHUD.h"
 
