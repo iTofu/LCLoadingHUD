@@ -16,7 +16,7 @@
 
 @interface LCLoadingHUD : CLProgressHUD
 
-#pragma mark - HUD 添加到 KeyWindow (推荐)
+#pragma mark - HUD 添加到 KeyWindow
 
 /**
  *  显示 HUD 到 KeyWindow 上
@@ -26,9 +26,9 @@
 + (void)showLoading:(NSString *)text;
 
 /**
- *  隐藏添加到 KeyWindow 到的 HUD
+ *  隐藏添加到 KeyWindow 上的 HUD
  */
-+ (void)dismissInKeyWindow;
++ (void)hideInKeyWindow;
 
 #pragma mark - HUD 添加到 View
 
@@ -37,9 +37,14 @@
  *
  *  @param text 文字
  *  @param view view
- *
- *  @return HUD
  */
-+ (instancetype)showLoading:(NSString *)text inView:(UIView *)view;
++ (void)showLoading:(NSString *)text inView:(UIView *)view;
+
+/**
+ *  隐藏添加到 View 上的 HUD
+ *
+ *  @param view view
+ */
++ (void)hideInView:(UIView *)view;
 
 @end

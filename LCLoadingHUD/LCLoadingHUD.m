@@ -45,7 +45,7 @@
     return loadingHUD;
 }
 
-+ (instancetype)showLoading:(NSString *)text inView:(UIView *)view {
++ (void)showLoading:(NSString *)text inView:(UIView *)view {
     
     LCLoadingHUD *hud = [[LCLoadingHUD alloc] initWithView:view];
     hud.text  = text ?: @"";
@@ -53,8 +53,6 @@
     hud.type  = CLProgressHUDTypeDarkForground;
     [view addSubview:hud];
     [hud showWithAnimation:YES];
-    
-    return hud;
 }
 
 + (void)showLoading:(NSString *)text {
@@ -72,11 +70,22 @@
     [loadingHUD showWithAnimation:YES];
 }
 
-+ (void)dismissInKeyWindow {
++ (void)hideInKeyWindow {
     
     LCLoadingHUD *loadingHUD = [LCLoadingHUD shared].loadingHUD;
     [loadingHUD dismissWithAnimation:YES];
     [LCLoadingHUD shared].loadingHUD = nil;
+}
+
++ (void)hideInView:(UIView *)view {
+    
+    for (UIView *childView in view.subviews) {
+        
+        if ([childView isKindOfClass:[LCLoadingHUD class]]) {
+            
+            [(LCLoadingHUD *)childView dismissWithAnimation:YES];
+        }
+    }
 }
 
 @end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LCLoadingHUD"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A cool loading HUD. \nSupport: http://www.leodong.com"
   s.homepage     = "https://github.com/LeoiOS//LCLoadingHUD"
   s.license      = { :type => "MIT", :file => "LICENSE" }

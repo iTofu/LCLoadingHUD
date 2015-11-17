@@ -21,27 +21,43 @@
   - 方法二：导入`LCLoadingHUD`文件夹到你的项目中 (文件夹在 Demo 中可以找到)
 * 在你需要使用的 viewController 中，`#import "LCLoadingHUD.h"`;
 * 
-    1. HUD 添加到 KeyWindow 上 （推荐）
+    1. HUD 添加到 KeyWindow 上
     ````objc
     // 显示
     [LCLoadingHUD showLoading:@"正在发射中..."];
     
     // 隐藏
-    [LCLoadingHUD dismissInKeyWindow];
+    [LCLoadingHUD hideInKeyWindow];
     ````
     
     2. HUD 添加到 View 上
     ````objc
-    // 先声明属性
-    @property (nonatomic, weak) LCLoadingHUD *loadingHUD;
     
     // 显示
-    self.loadingHUD = [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
+    [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
     
     // 隐藏
-    [self.loadingHUD dismissWithAnimation:YES];
+    [LCLoadingHUD hideInView:self.view];
     ````
 
+
+## 更新日志 2015.11.17 Update Logs (tag: 1.0.1)
+* 方法优化，添加到 View 上的 HUD 不需要再拿到实例，才能隐藏：
+    - 
+        ````objc
+        + (void)dismissInKeyWindow;
+        ->
+        + (void)hideInKeyWindow;
+        ````
+    -
+        ````objc
+        + (instancetype)showLoading:(NSString *)text inView:(UIView *)view;
+        ->
+        + (void)showLoading:(NSString *)text inView:(UIView *)view;
+        
+        // 新增
+        + (void)hideInView:(UIView *)view;
+        ````
 
 ## 更新日志 2015.11.17 Update Logs (tag: 1.0.0)
 * 初始化提交。

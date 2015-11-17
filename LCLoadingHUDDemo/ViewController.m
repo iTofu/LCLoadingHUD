@@ -9,12 +9,6 @@
 #import "ViewController.h"
 #import "LCLoadingHUD.h"
 
-@interface ViewController ()
-
-@property (nonatomic,   weak) LCLoadingHUD *loadingHUD;
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -33,12 +27,12 @@
 
 - (void)dismissKeyHUD {
     
-    [LCLoadingHUD dismissInKeyWindow];
+    [LCLoadingHUD hideInKeyWindow];
 }
 
 - (void)dismissInViewHUD {
     
-    [self.loadingHUD dismissWithAnimation:YES];
+    [LCLoadingHUD hideInView:self.view];
 }
 
 - (IBAction)showBtnClicked {
@@ -50,7 +44,7 @@
 
 - (IBAction)InViewBtnClicked {
     
-    self.loadingHUD = [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
+    [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
     
     [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(dismissInViewHUD) userInfo:nil repeats:NO];
 }
