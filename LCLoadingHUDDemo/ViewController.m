@@ -25,6 +25,8 @@
     NSLog(@"你点击到了 leftBtn");
 }
 
+#pragma mark -
+
 - (void)dismissKeyHUD {
     
     [LCLoadingHUD hideInKeyWindow];
@@ -34,6 +36,8 @@
     
     [LCLoadingHUD hideInView:self.view];
 }
+
+#pragma mark -
 
 - (IBAction)showBtnClicked {
     
