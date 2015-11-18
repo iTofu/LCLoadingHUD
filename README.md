@@ -1,11 +1,13 @@
 ## LCLoadingHUD
 🌈彩虹加载指示器
 
-###### 致谢 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD)！
 
 ![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.gif)
 
     心有猛虎，细嗅蔷薇。
+
+###### 致谢 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD)！
+
 
 ## 前言 Foreword
 
@@ -62,7 +64,7 @@
 
 ## 更新日志 2015.11.17 Update Logs (Tag: 1.0.1)
 
-* 方法优化，添加到 View 上的 HUD 不需要再拿到实例，才能隐藏：
+* 方法优化，添加到 View 上的 HUD 不再需要拿到该实例才能隐藏：
     - 
         ````objc
         + (void)dismissInKeyWindow;
