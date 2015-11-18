@@ -13,7 +13,7 @@
 
 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD) 这个库是我在开发中用的比较多的一个库，因为很 Cool！
 
-原有库做的效果挺好，但是使用起来不太友好，于是跟之前面对 MBProgressHUD 一样，再度封装。
+原有库做的效果挺好，但是不支持 [CocoaPods](https://cocoapods.org/)，使用起来也不太友好，于是再度封装。
 
 #### 浅谈下 "封装"
 
