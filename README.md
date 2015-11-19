@@ -41,7 +41,7 @@
   - 方法二：导入`LCLoadingHUD`文件夹到你的项目中 (文件夹在 Demo 中可以找到)
 * 在你需要使用的 viewController 中，`#import "LCLoadingHUD.h"`;
 * 
-    1. HUD 添加到 KeyWindow 上
+  1. HUD 添加到 KeyWindow 上
     ````objc
     // 显示
     [LCLoadingHUD showLoading:@"正在发射中..."];
@@ -49,8 +49,8 @@
     // 隐藏
     [LCLoadingHUD hideInKeyWindow];
     ````
-    
-    2. HUD 添加到 View 上
+
+  2. HUD 添加到 View 上
     ````objc
     
     // 显示
