@@ -1,5 +1,12 @@
 ## LCLoadingHUD
-🌈彩虹加载指示器
+
+[![Travis](https://img.shields.io/travis/LeoiOS/LCLoadingHUD.svg?style=flat)](https://travis-ci.org/LeoiOS/LCLoadingHUD)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LCLoadingHUD.svg)](http://cocoadocs.org/docsets/LCLoadingHUD)
+[![CocoaPods](https://img.shields.io/cocoapods/l/LCLoadingHUD.svg)](https://raw.githubusercontent.com/LeoiOS/LCLoadingHUD/master/LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/p/LCLoadingHUD.svg)](http://cocoadocs.org/docsets/LCLoadingHUD)
+[![LeoDev](https://img.shields.io/badge/blog-LeoDev.me-brightgreen.svg)](http://leodev.me)
+
+🌈 彩虹加载指示器
 
 
 ![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.gif)
