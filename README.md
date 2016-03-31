@@ -1,4 +1,4 @@
-## LCLoadingHUD
+# LCLoadingHUD
 
 [![Travis](https://img.shields.io/travis/LeoiOS/LCLoadingHUD.svg?style=flat)](https://travis-ci.org/LeoiOS/LCLoadingHUD)
 [![CocoaPods](https://img.shields.io/cocoapods/v/LCLoadingHUD.svg)](http://cocoadocs.org/docsets/LCLoadingHUD)
@@ -43,12 +43,13 @@
 
 ## 代码 Code
 
-* 
+* 两个导入方法：
   - 方法一：[CocoaPods](https://cocoapods.org/) 导入：`pod 'LCLoadingHUD'`
   - 方法二：导入`LCLoadingHUD`文件夹到你的项目中 (文件夹在 Demo 中可以找到)
 * 在你需要使用的 viewController 中，`#import "LCLoadingHUD.h"`;
-* 
+* 使用：
   1. HUD 添加到 KeyWindow 上
+  
     ````objc
     // 显示
     [LCLoadingHUD showLoading:@"正在发射中..."];
@@ -58,8 +59,8 @@
     ````
 
   2. HUD 添加到 View 上
+  
     ````objc
-    
     // 显示
     [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
     
@@ -69,7 +70,9 @@
 
 
 
-## 更新日志 2015.11.17 Update Logs (Tag: 1.0.1)
+## 更新日志 Update Logs
+
+### V1.0.1 (2015.11.17)
 
 * 方法优化，添加到 View 上的 HUD 不再需要拿到该实例才能隐藏：
     - 
@@ -90,7 +93,7 @@
 
 
 
-## 更新日志 2015.11.17 Update Logs (Tag: 1.0.0)
+### V1.0.0 (2015.11.17)
 
 * 初始化提交。
 
@@ -104,9 +107,9 @@
 
 ## 联系 Support
 
-* 发现问题请 Issues 我，谢谢:-)
-* Email: leoios@sina.com
-* Blog: http://www.leodong.com
+* 发现问题请 Issues :)
+* Mail: devtip@163.com
+* Blog: http://LeoDev.me
 
 
 
