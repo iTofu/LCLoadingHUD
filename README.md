@@ -9,11 +9,15 @@
 🌈 彩虹加载指示器
 
 
-![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.gif)
+![by http://LeoDev.me](https://raw.githubusercontent.com/iTofu/LCLoadingHUD/master/LCLoadingHUDDemo.gif)
 
-    心有猛虎，细嗅蔷薇。
+````
+In me the tiger sniffs the rose.
 
-###### 致谢 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD)！
+心有猛虎，细嗅蔷薇。
+````
+
+##### 致谢 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD)！
 
 
 ## 前言 Foreword
@@ -21,6 +25,7 @@
 [CLProgressHUD](https://github.com/cleexiang/CLProgressHUD) 这个库是我在开发中用的比较多的一个库，因为很 Cool！
 
 原有库做的效果挺好，但是不支持 [CocoaPods](https://cocoapods.org/)，使用起来也不太友好，于是再度封装。
+
 
 #### 浅谈下 "封装"
 
@@ -46,24 +51,26 @@
 * 两个导入方法：
   - 方法一：[CocoaPods](https://cocoapods.org/) 导入：`pod 'LCLoadingHUD'`
   - 方法二：导入`LCLoadingHUD`文件夹到你的项目中 (文件夹在 Demo 中可以找到)
+
 * 在你需要使用的 viewController 中，`#import "LCLoadingHUD.h"`;
+
 * 使用：
   1. HUD 添加到 KeyWindow 上
-  
+
     ````objc
     // 显示
     [LCLoadingHUD showLoading:@"正在发射中..."];
-    
+
     // 隐藏
     [LCLoadingHUD hideInKeyWindow];
     ````
 
   2. HUD 添加到 View 上
-  
+
     ````objc
     // 显示
     [LCLoadingHUD showLoading:@"你可以点 leftBtn" inView:self.view];
-    
+
     // 隐藏
     [LCLoadingHUD hideInView:self.view];
     ````
@@ -72,10 +79,15 @@
 
 ## 更新日志 Update Logs
 
-### V1.0.1 (2015.11.17)
+### V 1.0.5 (2016.04.05)
+
+* 更新 CocoaPods 源地址。
+
+
+### V 1.0.1 (2015.11.17)
 
 * 方法优化，添加到 View 上的 HUD 不再需要拿到该实例才能隐藏：
-    - 
+    -
         ````objc
         + (void)dismissInKeyWindow;
         ->
@@ -86,14 +98,14 @@
         + (instancetype)showLoading:(NSString *)text inView:(UIView *)view;
         ->
         + (void)showLoading:(NSString *)text inView:(UIView *)view;
-        
+
         // 新增
         + (void)hideInView:(UIView *)view;
         ````
 
 
 
-### V1.0.0 (2015.11.17)
+### V 1.0.0 (2015.11.17)
 
 * 初始化提交。
 
@@ -101,14 +113,16 @@
 
 ## 示例 Examples
 
-![image](https://github.com/LeoiOS/LCLoadingHUD/blob/master/LCLoadingHUDDemo.png)
+![by http://LeoDev.me](https://raw.githubusercontent.com/iTofu/LCLoadingHUD/master/LCLoadingHUDDemo.png)
 
 
 
 ## 联系 Support
 
-* 发现问题请 Issues :)
+* 发现问题请 Issue :)
+
 * Mail: devtip@163.com
+
 * Blog: http://LeoDev.me
 
 
