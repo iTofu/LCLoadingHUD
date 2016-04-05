@@ -1,8 +1,8 @@
 # LCLoadingHUD
 
-[![Travis](https://img.shields.io/travis/LeoiOS/LCLoadingHUD.svg?style=flat)](https://travis-ci.org/LeoiOS/LCLoadingHUD)
+[![Travis](https://img.shields.io/travis/iTofu/LCLoadingHUD.svg?style=flat)](https://travis-ci.org/iTofu/LCLoadingHUD)
 [![CocoaPods](https://img.shields.io/cocoapods/v/LCLoadingHUD.svg)](http://cocoadocs.org/docsets/LCLoadingHUD)
-[![CocoaPods](https://img.shields.io/cocoapods/l/LCLoadingHUD.svg)](https://raw.githubusercontent.com/LeoiOS/LCLoadingHUD/master/LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/l/LCLoadingHUD.svg)](https://raw.githubusercontent.com/iTofu/LCLoadingHUD/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/p/LCLoadingHUD.svg)](http://cocoadocs.org/docsets/LCLoadingHUD)
 [![LeoDev](https://img.shields.io/badge/blog-LeoDev.me-brightgreen.svg)](http://leodev.me)
 
@@ -42,7 +42,7 @@ In me the tiger sniffs the rose.
 
 ---
 
-提一下，这个库将作为 [LCCoolHUD](https://github.com/LeoiOS/LCCoolHUD) 之一。另一个是 [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)。
+提一下，这个库将作为 [LCCoolHUD](https://github.com/iTofu/LCCoolHUD) 之一。另一个是 [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)。
 
 
 
@@ -79,7 +79,7 @@ In me the tiger sniffs the rose.
 
 ## 更新日志 Update Logs
 
-### V 1.0.5 (2016.04.05)
+### V 1.0.6 (2016.04.05)
 
 * 更新 CocoaPods 源地址。
 

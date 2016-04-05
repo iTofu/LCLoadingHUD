@@ -8,7 +8,7 @@
 //  GitHub: http://github.com/iTofu
 //  如有问题或建议请给我发 Email, 或在该项目的 GitHub 主页提 Issue, 谢谢 :)
 //
-//  LCCoolHUD 系列 库一
+//  LCCoolHUD 系列库之一
 //
 //  致谢 CLProgressHUD (https://github.com/cleexiang/CLProgressHUD) !
 
