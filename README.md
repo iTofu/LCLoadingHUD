@@ -48,13 +48,14 @@ In me the tiger sniffs the rose.
 
 ## 代码 Code
 
-* 两个导入方法：
+* 两种导入方法：
   - 方法一：[CocoaPods](https://cocoapods.org/) 导入：`pod 'LCLoadingHUD'`
-  - 方法二：导入`LCLoadingHUD`文件夹到你的项目中 (文件夹在 Demo 中可以找到)
+  - 方法二：把 `LCLoadingHUD` 文件夹拖拽到你的项目中 (文件夹在 Demo 中可以找到)
 
 * 在你需要使用的 viewController 中，`#import "LCLoadingHUD.h"`;
 
 * 使用：
+
   1. HUD 添加到 KeyWindow 上
 
     ````objc
@@ -77,7 +78,7 @@ In me the tiger sniffs the rose.
 
 
 
-## 更新日志 Update Logs
+## 版本 Release
 
 ### V 1.0.6 (2016.04.05)
 
@@ -87,21 +88,19 @@ In me the tiger sniffs the rose.
 ### V 1.0.1 (2015.11.17)
 
 * 方法优化，添加到 View 上的 HUD 不再需要拿到该实例才能隐藏：
-    -
-        ````objc
-        + (void)dismissInKeyWindow;
-        ->
-        + (void)hideInKeyWindow;
-        ````
-    -
-        ````objc
-        + (instancetype)showLoading:(NSString *)text inView:(UIView *)view;
-        ->
-        + (void)showLoading:(NSString *)text inView:(UIView *)view;
 
-        // 新增
-        + (void)hideInView:(UIView *)view;
-        ````
+    ````objc
+    + (void)dismissInKeyWindow;
+    ->
+    + (void)hideInKeyWindow;
+    
+    + (instancetype)showLoading:(NSString *)text inView:(UIView *)view;
+    ->
+    + (void)showLoading:(NSString *)text inView:(UIView *)view;
+
+    // 新增
+    + (void)hideInView:(UIView *)view;
+    ````
 
 
 
@@ -119,7 +118,7 @@ In me the tiger sniffs the rose.
 
 ## 联系 Support
 
-* 发现问题请 Issue :)
+* 发现问题请 [new issue](https://github.com/iTofu/LCLoadingHUD/issues/new) :)
 
 * Mail: devtip@163.com
 
